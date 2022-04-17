@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body class="container">
-    <form>
+    <form id="add-form">
+
       <h2>Write a compliment to someone</h2>
-      <input
-      type="text"
-      id="title"
-      placeholder="type your compliment"
-      >
+      <input type="text" id="new-compliment" placeholder="type your compliment"/>
+      <button>Add Compliment</button>
     </form>
+    <section id="compliment-display"></section>
+    <section id="edit-zone"></section>
     <button id="complimentButton">Get a compliment</button>
 
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
